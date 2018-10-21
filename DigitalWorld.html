@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+#i1 {margin-left:-10px; margin-top:463px; width:300px; position: absolute; opacity: 0.3; filter: alpha(opacity=30);}
+#i2 {margin-left:-230px; margin-top:-110px; width:450px; position: absolute; cursor: pointer;}
+#i3 {margin-left:850px; margin-top:380px; width:300px; position: absolute;}
+#i4 {margin-left:1025px; margin-top:360px; width:100px; position: absolute; cursor:pointer;}
+#gifbox{margin: auto; position: absolute; top: 305px; left: 200px; }
+
+#i5 {width: 0px; height:0px; margin-left: -200px; margin-top:-300px; position: absolute; animation: turning 3.0s infinite;}
+#Man {margin-left:75%; margin-top:20px; width:350px; height:350px; background:url('man1.gif'); background-size:cover; position: absolute; cursor: pointer;}
+#demo { margin-left:0px; top:0px; width:800px; height:510px; font-size:3.0em; color:white; overflow: auto; position:absolute;}
+#Textbox1 {width:270px; height:65px; margin-left: 440px; margin-top:105px; background: red; position: absolute; animation: colors 0.5s infinite;}
+#Textbox2 {width:270px; height:65px; margin-left: 360px; margin-top:170px; background: red; position: absolute; animation: colors1 0.5s infinite;}
+#Textbox3 {width:105px; height:65px; margin-left: 545px; margin-top:425px; background: red; position: absolute; animation: colors 0.5s infinite;}
+#backG {width:500px; height:500px; margin-left: 800px; margin-top:190px;background:url('bluerain.gif'); background-size:cover; position: absolute; }
+#Mar {margin-left:1040px; margin-top:70px; transform: rotate(90deg); font-weight: bold; font-size: 4.0em; color:white; animation: moving 2.0s infinite;}
+#Mar2 {width:300px; margin-left:600px; margin-top:-360px; font-weight: bold; font-size: 4.0em; color:white; animation: movings 1.6s infinite;}
+
+
+
+@keyframes colors{
+
+			from{background-color: yellow;}
+
+			to{background-color: red;}
+		}
+@keyframes colors1{
+
+			from{background-color: blue;}
+
+			to{background-color: red;}
+		}
+
+@keyframes moving{
+
+			from{margin-left: 1140px; color: blue;}
+
+			to{margin-left: 1240px; color: red;}
+		}
+@keyframes movings{
+
+			from{margin-left: 600px; color: yellow;}
+
+			to{margin-left: 660px; color: purple;}
+		}
+
+
+@keyframes turning{
+
+			from{}
+
+			to{transform: rotate3d(0,0.5,0,360deg);}
+
+
+</style>
+</head>
+
+
+
+<body style="background: black;">
+
+
+		
+<div id=Textbox1></div>	
+<div id=Textbox2></div>	
+<div id=Textbox3></div>	
+
+<div id=backG> </div>
+
+<audio id="testMusic">
+		<source src = "time.mp3" type="audio/mpeg">
+</audio>
+
+<img src="machine.gif" id="i1">	
+<p id = "demo""></p>
+<div id="Man"></div>
+
+
+<img src="drawing.gif" id="i3">
+<img src="CD.gif" id="i4">
+
+<div id="gifbox" style="width: 0px;">
+		<img id="i5" src="panic.gif" style=" transition: all 2s">
+<img src="man.gif" id="i2"  onclick="typeWriter() ">
+
+<div id="Mar">#Marx</div>
+<div id="Mar2">#人間疏外</div>
+
+
+
+
+<script type="text/javascript">
+
+
+var i = 0;
+var txt = 
+	'인간의 물질적, 정신적 활동으로써 만들어진 피조물에 의하여 도리어 인간이 지배당하거나 인간의 본질이 상실되는 과정을 말한다. 현대 산업 사회에서 보편화된 거대 조직과 관료제는 인간을 조직의 부품으로 전락시키고, 자동화된 생산 구조에서 인간은 기계에 의해 소외당하게 된다. 한편, 경쟁적 사회 구조 속에서 인간은 다른 사람으로부터도 소외되고, 인간 자체가 고유한 인격이나 개성보다는 상품적 가치에 의해 물질적으로 평가되는 현상이 일반화되고 있다.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.돌이킬 수도 없고 멈출 수도 없는 것.The Irrevocable and Unstoppable.사람이 참다운 자기 자신을 잃어버리고 남만을 쫓아가는 현상. 이는 자신의 존재 가치에 대한 회의와 자신의 뚜렷한 주관과 창의력을 발휘하지 못하는 가운데 자신들이 만든 기계나 조직의 부품이 되어 가는 현상을 의미한다.'; /* The text */
+var speed = 0; /* The speed/duration of the effect in milliseconds */
+
+
+		function typeWriter() {
+			testMusic.play();
+  			if (i < txt.length) {
+    			document.getElementById("demo").innerHTML += txt.charAt(i);
+    			i++;
+    			var t = document.getElementById("demo");
+    			t.scrollTop = t.scrollHeight - 350;
+    			setTimeout(typeWriter, speed);
+
+  					}
+				}
+			
+			var currentMan = 1;
+
+
+			Man.onclick = function(){
+
+				currentMan++;
+				if(currentMan ==5){currentMan = 1;}
+
+					Man.style.background = "url('Man" + currentMan +".gif')";
+
+					Man.style.backgroundSize = "cover";
+
+				}
+			var toggle = "off";
+			i4.onclick = function(){
+			if(toggle == "off"){
+					
+				
+					i5.style.width = "720px";
+					i5.style.height = "480px";
+
+					toggle = "on";
+				}
+			else {
+					
+				
+					i5.style.width = "0px";
+					i5.style.height = "0px";
+					
+					toggle = "off";
+				}
+				}
+		
+
+				
+	</script>
+</body>
+</html>
